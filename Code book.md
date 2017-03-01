@@ -15,53 +15,41 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 	tBodyAcc-XYZ
-
 	tGravityAcc-XYZ
-
 	tBodyAccJerk-XYZ
-
 	tBodyGyro-XYZ
-
 	tBodyGyroJerk-XYZ
-
 	tBodyAccMag
-
 	tGravityAccMag
-
 	tBodyAccJerkMag
-
 	tBodyGyroMag
-
 	tBodyGyroJerkMag
-
 	fBodyAcc-XYZ
-
 	fBodyAccJerk-XYZ
-
 	fBodyGyro-XYZ
-
 	fBodyAccMag
-
 	fBodyAccJerkMag
-
 	fBodyGyroMag
-
 	fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals and used for this project are: 
 
 	mean(): Mean value
-
 	std(): Standard deviation
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
 	gravityMean
-
 	tBodyAccMean
-
 	tBodyAccJerkMean
-
 	tBodyGyroMean
-
 	tBodyGyroJerkMean
+	
+Activity labels appearing in the data set, which indicate what the 30 subjects were doing when measurements were taken, include:
+	
+	WALKING
+	WALKING_UPSTAIRS
+	WALKING_DOWNSTAIRS
+	SITTING
+	STANDING
+	LAYING
